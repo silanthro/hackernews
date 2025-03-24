@@ -5,5 +5,4 @@ description = "Simple tools to query HackerNews via their API"
 tools = [
     "tools.get_top_stories",
     "tools.get_new_stories",
-    "tools.search_new_stories_by_title",
 ]
