@@ -51,7 +51,7 @@ def get_stories(num: int = 10, key=Literal["topstories", "newstories"]) -> list[
             comments_url=f"https://news.ycombinator.com/item?id={p.get('id')}",
             by=p.get("by"),
             score=p.get("score"),
-            timestamp=p.get("timestamp"),
+            timestamp=p.get("time"),
         )
         for p in posts
     ]
